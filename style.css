@@ -147,36 +147,40 @@ header {
 
 .action {
   background: #F9FAF8;
-  padding: 5em 20em;
+  padding: 5em 15em;
 }
 
 .flex-action {
+  height: 5em;
+  min-width: 23em;
   font-size: 1.5em;
   font-weight: bold;
   background: #3882F6;
-  padding: 2em 10em;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   border-radius: 10px;
 }
 
 .action-box {
-  flex: 1 0;
+  margin: 20px;
 }
 
 .action-button {
-  max-width: 200px;
-  padding: 0.5em 1em;
+  height: 50px;
+  width: 200px;
+  padding: 0 1em;
   font-size: 1.5rem;
   color: #F9FAF8;
   font-weight: 600;
   border-color: #e5e7eb;
+  margin: 2em;
 }
 
 .action-box p {
   font-weight: 300;
   font-size: 0.75em;
-  margin-top: 10px;
+  margin-top: 1em;
 }
 
 footer {
